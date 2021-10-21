@@ -1,0 +1,17 @@
+.App {
+  height: 100vh;
+
+  .sections {
+    width: 100%;
+    height: calc(100vh - 55px);
+    background-color: rgb(230, 252, 244);
+    position: relative;
+    scroll-behavior: smooth;
+    > * {
+      width: 100vw;
+      height: calc(100vh - 55px);
+      position: relative;
+      top: 55px;
+    }
+  }
+}
